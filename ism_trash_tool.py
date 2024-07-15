@@ -51,7 +51,7 @@ def main():
             parts = []
             url_base = 'https://detect.roboflow.com/'
             endpoint = 'waste-detection-vnfx1/2'
-            #access_token = f'?api_key={st.secrets["api_key"]}'
+            access_token = f'?api_key={st.secrets["api_key"]}'
             format = '&format=json'
             overlap = f'&overlap={overlap_threshold}'
             confidence = f'&confidence={confidence_threshold}'
